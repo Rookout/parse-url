@@ -84,4 +84,4 @@ const parseUrl = (url, normalize = false) => {
 
 parseUrl.MAX_INPUT_LENGTH = 2048
 
-export default parseUrl;
+module.exports = parseUrl;
